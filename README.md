@@ -8,17 +8,17 @@
 
  <h2> ➯ Backlog do Produto </h2> 
 
-| Rank     | Prioridade |  US   | Estimativa | Sprint | Critério de aceitação |
-| :----: | :----: | :----: | :----: | :----: | :----: |
-| #01    | Alta |Como usuário do sistema, quero fazer login com credenciais seguras, para proteger as informações dos projetos.| 15 Horas | 1  |  O usuário consegue fazer seu autocadrasto no sistema| 
-| #02    | Alta |Como coordenador, quero cadastrar um novo projeto, inserindo nome, descrição e área de atuação, para organizar melhor as iniciativas da FAPG.| 15 Horas |  1  | O usuário consegue cadastrar um novo projeto no sistema|
-| #03   | Alta |Como coordenador, quero listar todos os projetos cadastrados, para ter uma visão geral dos projetos ativos e inativos. | 20 Horas |  1  | O coordenador consegue visualizar os projetos cadastrados e ver se estão ativos ou inativos |
-| #04    | Alta |Como membro da equipe, quero cadastrar tarefas dentro de um projeto, associando datas e responsáveis, para garantir um planejamento organizado. | 20 Horas | 1  | Um membro da equipe consegue cadastrar tarefas e associa-las a datas e responsáveis|
-| #05    | Média | Como coordenador ou membro da equipe, quero dividir uma tarefa em sub-tarefas, para detalhar melhor as etapas do trabalho e facilitar o acompanhamento. | 30 Horas | 3  | Um coordenador ou membro da equipe, pode dividir tarefas em subtarefas|
-| #06    | Média |Como coordenador ou membro da equipe, quero filtrar os projetos por área de atuação, para encontrar rapidamente os projetos relacionados a um campo específico. | 30 Horas | 2 | O coordenador, para melhor visualização, consegue filtrar projetos por área de atuação |
-| #07    | Média | Como coordenador, quero editar ou excluir um projeto, para manter os dados atualizados e remover registros obsoletos ou incorretos. | 15 Horas | 2  | Um coordenador consegue editar ou excluir um projeto|
-| #08    | Média | Como membro da equipe, quero atualizar o status de uma atividade, para manter o acompanhamento do progresso. | 20 Horas | 2  | Um membro da equipe, consegue mudar o status dela para "em andamento" ou "finalizada"|
-| #09    | Média | Como coordenador, quero recuperar um projeto excluído, para restaurar informações importantes caso a exclusão tenha sido um erro. | 30 Horas | 3  | Um coordenador consegue recuperar dados de um projeto excluído|
+| Rank     | Prioridade |  US   | Estimativa | Sprint | Requisitos do parceiro| Critério de aceitação |
+| :----: | :----: | :----: | :----: | :----: | :----: |  :----: |
+| #01    | Alta |Como usuário do sistema, quero fazer login com credenciais seguras, para proteger as informações dos projetos.| 15 Horas | 1  | RF5 | O usuário consegue fazer seu autocadrasto no sistema| 
+| #02    | Alta |Como coordenador, quero cadastrar um novo projeto, inserindo nome, descrição e área de atuação, para organizar melhor as iniciativas da FAPG.| 15 Horas |  1  | RF1 | O usuário consegue cadastrar um novo projeto no sistema|
+| #03   | Alta |Como coordenador, quero listar todos os projetos cadastrados, para ter uma visão geral dos projetos ativos e inativos. | 20 Horas |  1  | RF4 | O coordenador consegue visualizar os projetos cadastrados e ver se estão ativos ou inativos |
+| #04    | Alta |Como membro da equipe, quero cadastrar tarefas dentro de um projeto, associando datas e responsáveis, para garantir um planejamento organizado. | 20 Horas | 1  | RF5 | Um membro da equipe consegue cadastrar tarefas e associa-las a datas e responsáveis|
+| #05    | Média | Como coordenador ou membro da equipe, quero dividir uma tarefa em sub-tarefas, para detalhar melhor as etapas do trabalho e facilitar o acompanhamento. | 30 Horas | 2  | RF5 | Um coordenador ou membro da equipe, pode dividir tarefas em subtarefas|
+| #06    | Média |Como coordenador ou membro da equipe, quero filtrar os projetos por área de atuação, para encontrar rapidamente os projetos relacionados a um campo específico. | 30 Horas | 2 | RF4 | O coordenador, para melhor visualização, consegue filtrar projetos por área de atuação |
+| #07    | Média | Como coordenador, quero editar ou excluir um projeto, para manter os dados atualizados e remover registros obsoletos ou incorretos. | 15 Horas | 2  | RF3 | Um coordenador consegue editar ou excluir um projeto|
+| #08    | Média | Como membro da equipe, quero atualizar o status de uma atividade, para manter o acompanhamento do progresso. | 20 Horas | 3  | RF5 | Um membro da equipe, consegue mudar o status dela para "em andamento" ou "finalizada"|
+| #09    | Média | Como coordenador, quero recuperar um projeto excluído, para restaurar informações importantes caso a exclusão tenha sido um erro. | 30 Horas | 3  | RF2 | Um coordenador consegue recuperar dados de um projeto excluído|
 
 
 
@@ -26,43 +26,32 @@
 <br>
 <br>
 
+<br>
+<br>
+ <h2>  ➯ Requisitos Funcionais</h2>
 
-## Requisitos Funcionais
+| Nº Requisito   | Requisito do Parceiro |
+| :----: | :----: |
+| RF1  |  Cadastrar projetos da FAPG, incluindo informações como nome do projeto, descrição, área de atuação, responsáveis, status, etc. |
+| RF2  | Permitir a recuperação de dados de projetos de forma intuitiva e eficiente. |
+| RF3  | Permitir a atualização e exclusão de dados dos projetos cadastrados. |
+| RF4  | - Visualizar projetos por **área de atuação** <br> - Visualizar projetos por **responsáveis** <br> - Visualizar projetos por **status**. <br> - Acompanhar o **andamento das atividades** dos projetos.|
+| RF5  | Permitir o acesso do usuário ao sistema e suas funcionalidades 
 
-- **Cadastro de Projetos**:
-  - Cadastrar projetos da FAPG, incluindo informações como nome do projeto, descrição, área de atuação, responsáveis, status, etc.
+<br>
+<br>
 
-- **Recuperação de Dados**:
-  - Permitir a recuperação de dados de projetos de forma intuitiva e eficiente.
+ <h2> ➯ Requisitos Não Funcionais</h2>
 
-- **Atualização e Exclusão**:
-  - Permitir a atualização e exclusão de dados dos projetos cadastrados.
+| Nº Requisito   | Requisito do Parceiro |
+| :----: | :----: |
+| RNF1 | O sistema deve ser fácil de usar, com uma interface intuitiva e acessível. |
+| RNF2 |  Garantir a privacidade e segurança dos dados dos projetos e usuários. |
+| RNF3 | O sistema deve ser capaz de converter linguagem natural em chamadas de funções, sem o uso de APIs externas. |
+| RNF4 | Extrair parâmetros da mensagem do usuário para execução de funções, sem o uso de APIs externas. |
+| RNF5 |  O sistema deve ser capaz de orquestrar chamadas de funções de forma eficiente e organizada. |
 
-- **Visualizações**:
-  - Visualizar projetos por **área de atuação**.
-  - Visualizar projetos por **responsáveis**.
-  - Visualizar projetos por **status**.
-  - Acompanhar o **andamento das atividades** dos projetos.
 
-- **Outras Visualizações/Relatórios**:
-  - O sistema pode oferecer outras visualizações e relatórios conforme a necessidade.
-
-## Requisitos Não Funcionais
-
-- **Usabilidade**:
-  - O sistema deve ser fácil de usar, com uma interface intuitiva e acessível.
-
-- **Privacidade de Dados**:
-  - Garantir a privacidade e segurança dos dados dos projetos e usuários.
-
-- **Conversão de Linguagem Natural**:
-  - O sistema deve ser capaz de converter linguagem natural em chamadas de funções, sem o uso de APIs externas.
-
-- **Extração de Parâmetros**:
-  - Extrair parâmetros da mensagem do usuário para execução de funções, sem o uso de APIs externas.
-
-- **Orquestração de Chamadas de Funções**:
-  - O sistema deve ser capaz de orquestrar chamadas de funções de forma eficiente e organizada.
 
 <br>
 

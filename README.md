@@ -10,15 +10,15 @@
 
 | Rank     | Prioridade |  US   | Estimativa | Sprint | Requisitos do parceiro| Critério de aceitação |
 | :----: | :----: | :----: | :----: | :----: | :----: |  :----: |
-| #01    | Alta |Como usuário do sistema, quero fazer login com credenciais seguras, para proteger as informações dos projetos.| 15 Horas | 1  | RF5 | O usuário consegue fazer seu autocadrasto no sistema| 
-| #02    | Alta |Como coordenador, quero cadastrar um novo projeto, inserindo nome, descrição e área de atuação, para organizar melhor as iniciativas da FAPG.| 15 Horas |  1  | RF1 | O usuário consegue cadastrar um novo projeto no sistema|
+| #01    | Alta |Como usuário do sistema, quero fazer login com credenciais seguras, para proteger as informações dos projetos.| 15 Horas | 1  | RF5 | O usuário consegue fazer seu autocadrasto no sistema, o usuário faz o login por meio de seu email cadastrado e senha.| 
+| #02    | Alta |Como coordenador, quero cadastrar um novo projeto, inserindo nome, descrição e área de atuação, para organizar melhor as iniciativas da FAPG.| 15 Horas |  1  | RF1 | O usuário consegue cadastrar um novo projeto no sistema, o usuário consegue inserir nome, descrição e área de atuação em seu projeto cadastrado|
 | #03   | Alta |Como coordenador, quero listar todos os projetos cadastrados, para ter uma visão geral dos projetos ativos e inativos. | 20 Horas |  1  | RF4 | O coordenador consegue visualizar os projetos cadastrados e ver se estão ativos ou inativos |
 | #04    | Alta |Como membro da equipe, quero cadastrar tarefas dentro de um projeto, associando datas e responsáveis, para garantir um planejamento organizado. | 20 Horas | 1  | RF5 | Um membro da equipe consegue cadastrar tarefas e associa-las a datas e responsáveis|
-| #05    | Média | Como coordenador ou membro da equipe, quero dividir uma tarefa em sub-tarefas, para detalhar melhor as etapas do trabalho e facilitar o acompanhamento. | 30 Horas | 2  | RF5 | Um coordenador ou membro da equipe, pode dividir tarefas em subtarefas|
-| #06    | Média |Como coordenador ou membro da equipe, quero filtrar os projetos por área de atuação, para encontrar rapidamente os projetos relacionados a um campo específico. | 30 Horas | 2 | RF4 | O coordenador, para melhor visualização, consegue filtrar projetos por área de atuação |
-| #07    | Média | Como coordenador, quero editar ou excluir um projeto, para manter os dados atualizados e remover registros obsoletos ou incorretos. | 15 Horas | 2  | RF3 | Um coordenador consegue editar ou excluir um projeto|
-| #08    | Média | Como membro da equipe, quero atualizar o status de uma atividade, para manter o acompanhamento do progresso. | 20 Horas | 3  | RF5 | Um membro da equipe, consegue mudar o status dela para "em andamento" ou "finalizada"|
-| #09    | Média | Como coordenador, quero recuperar um projeto excluído, para restaurar informações importantes caso a exclusão tenha sido um erro. | 30 Horas | 3  | RF2 | Um coordenador consegue recuperar dados de um projeto excluído|
+| #05    | Média | Como coordenador ou membro da equipe, quero dividir uma tarefa em sub-tarefas, para detalhar melhor as etapas do trabalho e facilitar o acompanhamento. | 30 Horas | 2  | RF5 | Um coordenador ou membro da equipe, pode dividir tarefas em subtarefas, um coordenador consegue acompanhar a evolução do projeto.|
+| #06    | Média |Como coordenador ou membro da equipe, quero filtrar os projetos por área de atuação, para encontrar rapidamente os projetos relacionados a um campo específico. | 30 Horas | 2 | RF4 | O coordenador ou membro de equipe, para melhor visualização, consegue filtrar projetos por área de atuação |
+| #07    | Média | Como coordenador, quero editar ou excluir um projeto, para manter os dados atualizados e remover registros obsoletos ou incorretos. | 15 Horas | 2  | RF3 | Um coordenador consegue editar ou excluir um projeto, a fim de manter os dados corretamente atualizados|
+| #08    | Média | Como membro da equipe, quero atualizar o status de uma atividade, para manter o acompanhamento do progresso. | 20 Horas | 3  | RF5 | Um membro da equipe, consegue mudar o status dela para "em andamento" ou "finalizada", afim de manter o acompanhamento de progresso|
+| #09    | Média | Como coordenador, quero recuperar um projeto excluído, para restaurar informações importantes caso a exclusão tenha sido um erro. | 30 Horas | 3  | RF2 | Um coordenador consegue recuperar dados de um projeto excluído, um coordenador consegue recuperar os dados de um projeto de uma maneira segura|
 
 
 

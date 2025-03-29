@@ -2,23 +2,31 @@
 
 <span id="topo">
 <h1 align="center"> FATEC SJC - 4º Semestre ADS - Lumen </h1>
+<br>
+
+## 📍 Objetivo
+
+<h4>Desenvolver uma plataforma web para gestão de projetos da FAPG (Fundação de Apoio à Pesquisa e Gestão)</h4>
 
 <br>
 <br>
 
  <h2> ➯ Backlog do Produto </h2> 
 
-| Rank     | Prioridade |  US   | Estimativa | Sprint | Requisitos do parceiro| Critério de aceitação |
-| :----: | :----: | :----: | :----: | :----: | :----: |  :----: |
-| #01    | Alta |Como usuário do sistema, quero fazer login com credenciais seguras, para proteger as informações dos projetos.| 15 Horas | 1  | RF5 | O usuário consegue fazer seu autocadrasto no sistema, o usuário faz o login por meio de seu email cadastrado e senha.| 
-| #02    | Alta |Como coordenador, quero cadastrar um novo projeto, inserindo nome, descrição e área de atuação, para organizar melhor as iniciativas da FAPG.| 15 Horas |  1  | RF1 | O usuário consegue cadastrar um novo projeto no sistema, o usuário consegue inserir nome, descrição e área de atuação em seu projeto cadastrado|
-| #03   | Alta |Como coordenador, quero listar todos os projetos cadastrados, para ter uma visão geral dos projetos ativos e inativos. | 20 Horas |  1  | RF4 | O coordenador consegue visualizar os projetos cadastrados e ver se estão ativos ou inativos |
-| #04    | Alta |Como membro da equipe, quero cadastrar tarefas dentro de um projeto, associando datas e responsáveis, para garantir um planejamento organizado. | 20 Horas | 1  | RF5 | Um membro da equipe consegue cadastrar tarefas e associa-las a datas e responsáveis|
-| #05    | Média | Como coordenador ou membro da equipe, quero dividir uma tarefa em sub-tarefas, para detalhar melhor as etapas do trabalho e facilitar o acompanhamento. | 30 Horas | 2  | RF5 | Um coordenador ou membro da equipe, pode dividir tarefas em subtarefas, um coordenador consegue acompanhar a evolução do projeto.|
-| #06    | Média |Como coordenador ou membro da equipe, quero filtrar os projetos por área de atuação, para encontrar rapidamente os projetos relacionados a um campo específico. | 30 Horas | 2 | RF4 | O coordenador ou membro de equipe, para melhor visualização, consegue filtrar projetos por área de atuação |
-| #07    | Média | Como coordenador, quero editar ou excluir um projeto, para manter os dados atualizados e remover registros obsoletos ou incorretos. | 15 Horas | 2  | RF3 | Um coordenador consegue editar ou excluir um projeto, a fim de manter os dados corretamente atualizados|
-| #08    | Média | Como membro da equipe, quero atualizar o status de uma atividade, para manter o acompanhamento do progresso. | 20 Horas | 3  | RF5 | Um membro da equipe, consegue mudar o status dela para "em andamento" ou "finalizada", afim de manter o acompanhamento de progresso|
-| #09    | Média | Como coordenador, quero recuperar um projeto excluído, para restaurar informações importantes caso a exclusão tenha sido um erro. | 30 Horas | 3  | RF2 | Um coordenador consegue recuperar dados de um projeto excluído, um coordenador consegue recuperar os dados de um projeto de uma maneira segura|
+| Rank | Prioridade | US | Estimativa | Sprint | Requisitos do parceiro | Critério de aceitação |
+|------|-----------|----|------------|--------|------------------------|-------------------------|
+| #01  | Alta      | Como usuário do sistema, quero fazer login com credenciais seguras, para proteger as informações dos projetos. | 15 Horas | 1 | RF5 | - O usuário consegue fazer seu autocadastro no sistema. <br> <br> - O usuário usa seu email e senha cadastrados para fazer login no sistema. |
+| #02  | Alta      | Como coordenador, quero cadastrar um novo projeto, para organizar melhor as iniciativas da FAPG. | 15 Horas | 1 | RF1 | - O usuário consegue cadastrar um novo projeto no sistema. <br> <br> - O usuário consegue inserir um nome e descrição em seu projeto cadastrado. |
+| #03  | Alta      | Como coordenador, quero listar todos os projetos cadastrados. | 20 Horas | 1 | RF4 | - O coordenador consegue visualizar os projetos que cadastrou. <br> <br> - Caso novos projetos sejam adicionados, a listagem deve refletir essas mudanças sem necessidade de recarregar a página. |
+| #04  | Alta      | Como membro da equipe, quero cadastrar etapas e tarefas dentro de um projeto. | 20 Horas | 1 | RF5 | - Um coordenador da equipe consegue cadastrar tarefas. <br> <br> - Um coordenador consegue criar etapas e associar tarefas a uma etapa. |
+| #05  | Média    | Como coordenador da equipe, quero dividir uma tarefa em sub-tarefas, para detalhar melhor as etapas do trabalho e facilitar o acompanhamento. | 30 Horas | 2 | RF5 | - Um coordenador pode dividir tarefas em subtarefas. <br> <br> - Um coordenador e membros da equipe conseguem acompanhar a evolução do projeto. |
+| #06  | Média    | Como coordenador da equipe, quero associar uma tarefa a suas respectivas datas e seus responsáveis. | 15 Horas | 2 | RF5 | - Um coordenador pode associar uma tarefa a um usuário. <br> <br> - Um coordenador pode associar uma tarefa a uma data de início e fim. |
+| #07  | Média    | Como coordenador ou membro da equipe, quero associar e filtrar os projetos por área de atuação, para encontrar rapidamente os projetos relacionados a um campo específico. | 30 Horas | 2 | RF4 | - Um coordenador consegue associar um projeto a uma área de atuação. <br> <br> - O coordenador ou membro da equipe consegue filtrar projetos por área de atuação. |
+| #08  | Média    | Como coordenador, quero editar ou excluir um projeto, para manter os dados atualizados e remover registros obsoletos ou incorretos. | 15 Horas | 2 | RF3 | - Um coordenador consegue manter os dados do projeto atualizados. <br> <br> - Um coordenador consegue editar ou excluir um projeto. |
+| #09  | Média    | Como membro da equipe, quero atualizar o status de uma tarefa, para manter o acompanhamento do progresso. | 20 Horas | 3 | RF5 | - Um coordenador consegue manter os dados do projeto atualizados. <br> <br> - Um coordenador consegue editar ou excluir um projeto. |
+| #10  | Média    | Como coordenador, quero recuperar um projeto excluído, para restaurar informações importantes caso a exclusão tenha sido um erro. | 30 Horas | 3 | RF2 | - Um coordenador consegue recuperar dados de um projeto. <br> <br> - Um coordenador recupera os dados de um projeto, de uma maneira segura. |
+
+
 
 
 
@@ -150,11 +158,11 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 |    Função     | Nome                     |                               LinkedIn                                |                     GitHub                     |
 | :----------:  | :----------------------- | :-------------------------------------------------------------------: | :--------------------------------------------: |
-|  Scrum Master   | Guilherme Sato              |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/guilherme-sato-42b609292/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/thenewjapzzz)     |
-|   Product Owner     | Gustavo Villela           |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/gustavo-villela-a9314b268/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/TaldoGus)       | 
-|  Dev Team     | Samuel Alkmin                 |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/samuel-alkmin-machado-52743a292/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/samekmd)        |
+|  Dev Team   | Guilherme Sato              |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/guilherme-sato-42b609292/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/thenewjapzzz)     |
+|   Dev Team     | Gustavo Villela           |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/gustavo-villela-a9314b268/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/TaldoGus)       | 
+|  Product Owner     | Samuel Alkmin                 |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/samuel-alkmin-machado-52743a292/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/samekmd)        |
 | Dev Team    | Matheus Andrade                 |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/matheus-santos-b1a65b1ba/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/MatheusAndrade1999)      | 
-| Dev Team | Vinicius Peretta                 |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/vinicius-assis-peretta-5a2436227/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/Peretta)        |
+| Scrum Master | Vinicius Peretta                 |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/vinicius-assis-peretta-5a2436227/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/Peretta)        |
 | Dev Team | Pedro Machado                 |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/pedro-henrique-machado-martins-968855305/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/PedrooMachado23)        |
 | Dev Team | Larissa Colucci                 |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/larissa-colucci-996393295/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/LarissaCGomes)        |
 | Dev Team | João Victor                 |[<img height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg">](https://www.linkedin.com/in/jo%C3%A3o-victor-menezes-88a6b9264/)|      [<img align="center" height="30px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg"/>](https://github.com/jvictormo)        |

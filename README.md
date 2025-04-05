@@ -15,8 +15,8 @@
 
 | Rank | Prioridade | US | Estimativa | Sprint | Requisitos do parceiro | Critério de aceitação |
 |------|-----------|----|------------|--------|------------------------|-------------------------|
-| #01  | Alta      | Como usuário do sistema, quero fazer login com credenciais seguras, para proteger as informações dos projetos. | 15 Horas | 1 | RF5 | - O usuário consegue fazer seu autocadastro no sistema. <br> <br> - O usuário usa seu email e senha cadastrados para fazer login no sistema. |
-| #02  | Alta      | Como coordenador, quero cadastrar um novo projeto, para organizar melhor as iniciativas da FAPG. | 15 Horas | 1 | RF1 | - O usuário consegue cadastrar um novo projeto no sistema. <br> <br> - O usuário consegue inserir um nome e descrição em seu projeto cadastrado. |
+| #01  | Alta      | Como usuário do sistema, quero fazer login com credenciais seguras, para proteger as informações dos projetos. | 15 Horas | 1 | RF5, RNF1  | - O usuário consegue fazer seu autocadastro no sistema. <br> <br> - O usuário usa seu email e senha cadastrados para fazer login no sistema. |
+| #02  | Alta      | Como coordenador, quero cadastrar um novo projeto, para organizar melhor as iniciativas da FAPG. | 15 Horas | 1 | RF1, RNF1 | - O usuário consegue cadastrar um novo projeto no sistema. <br> <br> - O usuário consegue inserir um nome e descrição em seu projeto cadastrado. |
 | #03  | Alta      | Como coordenador, quero listar todos os projetos cadastrados. | 20 Horas | 1 | RF4 | - O coordenador consegue visualizar os projetos que cadastrou. <br> <br> - Caso novos projetos sejam adicionados, a listagem deve refletir essas mudanças sem necessidade de recarregar a página. |
 | #04  | Alta      | Como membro da equipe, quero cadastrar etapas e tarefas dentro de um projeto. | 20 Horas | 1 | RF5 | - Um coordenador da equipe consegue cadastrar tarefas. <br> <br> - Um coordenador consegue criar etapas e associar tarefas a uma etapa. |
 | #05  | Média    | Como coordenador da equipe, quero dividir uma tarefa em sub-tarefas, para detalhar melhor as etapas do trabalho e facilitar o acompanhamento. | 30 Horas | 2 | RF5 | - Um coordenador pode dividir tarefas em subtarefas. <br> <br> - Um coordenador e membros da equipe conseguem acompanhar a evolução do projeto. |
@@ -75,20 +75,44 @@
 
 | ITEM   | STATUS |
 | :----: | :----: |
-|Criar repositório no GitHub|  |
-|Backlog do produto|  |
-|Backlog da sprint|  |
-|Desenvolvimento de Protótipo no Figma|  |
-|Cadastro e Login de Usuários|  |
-|Cadastro de projetos| |
-|Cadastro de tarefas| |
-|Associação de tarefas a datas e membros| |
-|Visualização de projetos que o usuário está cordenando ou participando| |
-|Filtragem de projetos ativos ou inativos| |
-|Criação de Telas do site usando React| |
-|Modelagem do banco de dados e criação do DER| |
-|Configuração do banco de dados| |
+|Criar repositório no GitHub| :white_check_mark: |
+|Backlog do produto| :white_check_mark: |
+|Backlog da sprint|:white_check_mark:  |
+|Desenvolvimento de Protótipo no Figma|  :white_check_mark:|
+|Cadastro e Login de Usuários| :white_check_mark: |
+|Cadastro de projetos| :white_check_mark:|
+|Cadastro de tarefas|:white_check_mark: |
+|Associação de tarefas a datas|:white_check_mark: |
+|Visualização de projetos que o usuário está cordenando|:white_check_mark: |
+|Filtragem de projetos ativos ou inativos| :white_check_mark:|
+|Criação de Telas do site usando React|:white_check_mark: |
+|Modelagem do banco de dados e criação do DER|:white_check_mark: |
+|Configuração do banco de dados|:white_check_mark: |
 
+
+
+<br>
+
+
+### Sprint 2 - Subtarefas, Filtros, Edição e Exclusão de Projetos, Áreas de Atuação e Associação de tarefas a usuários.
+
+| ITEM   | STATUS |
+| :----: | :----: |
+|Modificações backlog (cenários de teste)|  |
+|Cadastro de subtarefas|  |
+|CRUD de subtarefas| |
+|Edição de projetos| |
+|Edição de tarefas| |
+|Exclusão de projetos| |
+|Exclusão de tarefas| |
+|Convidar membros para um projeto| |
+|CRUD de áreas de atuação| |
+|Associação de projetos a área de atuação| |
+|Associação de tarefas a usuários| |
+|Data de inicio e fim de projeto | |
+|Integração de IA | |
+|Tela minhas tarefas | |
+|Divisão de projetos que o usuário faz parte e que cordena | |
 
 
 <br>

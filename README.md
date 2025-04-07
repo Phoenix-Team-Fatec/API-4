@@ -17,14 +17,14 @@
 |------|-----------|----|------------|--------|------------------------|-------------------------|
 | #01  | Alta      | Como usuário do sistema, quero fazer login com credenciais seguras, para proteger as informações dos projetos. | 15 Horas | 1 | RF5, RNF1  | - O usuário consegue fazer seu autocadastro no sistema. <br> <br> - O usuário usa seu email e senha cadastrados para fazer login no sistema. |
 | #02  | Alta      | Como coordenador, quero cadastrar um novo projeto, para organizar melhor as iniciativas da FAPG. | 15 Horas | 1 | RF1, RNF1 | - O usuário consegue cadastrar um novo projeto no sistema. <br> <br> - O usuário consegue inserir um nome e descrição em seu projeto cadastrado. |
-| #03  | Alta      | Como coordenador, quero listar todos os projetos cadastrados. | 20 Horas | 1 | RF4 | - O coordenador consegue visualizar os projetos que cadastrou. <br> <br> - Caso novos projetos sejam adicionados, a listagem deve refletir essas mudanças sem necessidade de recarregar a página. |
-| #04  | Alta      | Como membro da equipe, quero cadastrar etapas e tarefas dentro de um projeto. | 20 Horas | 1 | RF5 | - Um coordenador da equipe consegue cadastrar tarefas. <br> <br> - Um coordenador consegue criar etapas e associar tarefas a uma etapa. |
-| #05  | Média    | Como coordenador da equipe, quero dividir uma tarefa em sub-tarefas, para detalhar melhor as etapas do trabalho e facilitar o acompanhamento. | 30 Horas | 2 | RF5 | - Um coordenador pode dividir tarefas em subtarefas. <br> <br> - Um coordenador e membros da equipe conseguem acompanhar a evolução do projeto. |
-| #06  | Média    | Como coordenador da equipe, quero associar uma tarefa a suas respectivas datas e seus responsáveis. | 15 Horas | 2 | RF5 | - Um coordenador pode associar uma tarefa a um usuário. <br> <br> - Um coordenador pode associar uma tarefa a uma data de início e fim. |
-| #07  | Média    | Como coordenador ou membro da equipe, quero associar e filtrar os projetos por área de atuação, para encontrar rapidamente os projetos relacionados a um campo específico. | 30 Horas | 2 | RF4 | - Um coordenador consegue associar um projeto a uma área de atuação. <br> <br> - O coordenador ou membro da equipe consegue filtrar projetos por área de atuação. |
-| #08  | Média    | Como coordenador, quero editar ou excluir um projeto, para manter os dados atualizados e remover registros obsoletos ou incorretos. | 15 Horas | 2 | RF3 | - Um coordenador consegue manter os dados do projeto atualizados. <br> <br> - Um coordenador consegue editar ou excluir um projeto. |
-| #09  | Média    | Como membro da equipe, quero atualizar o status de uma tarefa, para manter o acompanhamento do progresso. | 20 Horas | 3 | RF5 | - Um coordenador consegue manter os dados do projeto atualizados. <br> <br> - Um coordenador consegue editar ou excluir um projeto. |
-| #10  | Média    | Como coordenador, quero recuperar um projeto excluído, para restaurar informações importantes caso a exclusão tenha sido um erro. | 30 Horas | 3 | RF2 | - Um coordenador consegue recuperar dados de um projeto. <br> <br> - Um coordenador recupera os dados de um projeto, de uma maneira segura. |
+| #03  | Alta      | Como coordenador, quero listar todos os projetos cadastrados. | 20 Horas | 1 | RF4, RNF1 | - O coordenador consegue visualizar os projetos que cadastrou. <br> <br> - Caso novos projetos sejam adicionados, a listagem deve refletir essas mudanças sem necessidade de recarregar a página. |
+| #04  | Alta      | Como membro da equipe, quero cadastrar etapas e tarefas dentro de um projeto. | 20 Horas | 1 | RF5, RNF1 | - Um coordenador da equipe consegue cadastrar tarefas. <br> <br> - Um coordenador consegue criar etapas e associar tarefas a uma etapa. |
+| #05  | Média    | Como coordenador da equipe, quero dividir uma tarefa em sub-tarefas, para detalhar melhor as etapas do trabalho e facilitar o acompanhamento. | 30 Horas | 2 | RF5, RNF1 | - Um coordenador pode dividir tarefas em subtarefas. <br> <br> - Um coordenador e membros da equipe conseguem acompanhar a evolução do projeto. |
+| #06  | Média    | Como coordenador da equipe, quero associar uma tarefa a suas respectivas datas e seus responsáveis. | 15 Horas | 2 | RF5, RNF1 | - Um coordenador pode associar uma tarefa a um usuário. <br> <br> - Um coordenador pode associar uma tarefa a uma data de início e fim. |
+| #07  | Média    | Como coordenador ou membro da equipe, quero associar e filtrar os projetos por área de atuação, para encontrar rapidamente os projetos relacionados a um campo específico. | 30 Horas | 2 | RF4, RNF1 | - Um coordenador consegue associar um projeto a uma área de atuação. <br> <br> - O coordenador ou membro da equipe consegue filtrar projetos por área de atuação. |
+| #08  | Média    | Como coordenador, quero editar ou excluir um projeto, para manter os dados atualizados e remover registros obsoletos ou incorretos. | 15 Horas | 2 | RF3, RNF1, RNF2 | - Um coordenador consegue manter os dados do projeto atualizados. <br> <br> - Um coordenador consegue editar ou excluir um projeto. |
+| #09  | Média    | Como membro da equipe, quero atualizar o status de uma tarefa, para manter o acompanhamento do progresso. | 20 Horas | 3 | RF5, RNF1 | - Um coordenador consegue manter os dados do projeto atualizados. <br> <br> - Um coordenador consegue editar ou excluir um projeto. |
+| #10  | Média    | Como coordenador, quero recuperar um projeto excluído, para restaurar informações importantes caso a exclusão tenha sido um erro. | 30 Horas | 3 | RF2, RNF1, RNF2 | - Um coordenador consegue recuperar dados de um projeto. <br> <br> - Um coordenador recupera os dados de um projeto, de uma maneira segura. |
 
 
 
@@ -71,48 +71,19 @@
 
 ## ➯ Backlog das Sprints
 
-### Sprint 1 - Metodologia, tecnologias , protótipo , cadastro de usuários , cadastro de projetos , cadastro de tarefas, login , interface e banco de dados .
 
-| ITEM   | STATUS |
-| :----: | :----: |
-|Criar repositório no GitHub| :white_check_mark: |
-|Backlog do produto| :white_check_mark: |
-|Backlog da sprint|:white_check_mark:  |
-|Desenvolvimento de Protótipo no Figma|  :white_check_mark:|
-|Cadastro e Login de Usuários| :white_check_mark: |
-|Cadastro de projetos| :white_check_mark:|
-|Cadastro de tarefas|:white_check_mark: |
-|Associação de tarefas a datas|:white_check_mark: |
-|Visualização de projetos que o usuário está cordenando|:white_check_mark: |
-|Filtragem de projetos ativos ou inativos| :white_check_mark:|
-|Criação de Telas do site usando React|:white_check_mark: |
-|Modelagem do banco de dados e criação do DER|:white_check_mark: |
-|Configuração do banco de dados|:white_check_mark: |
+<a href="Sprint1/" style="text-decoration: none;">
+  <img align="left" title="folder" height="30px" src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png"/>
+  <span style="font-size: 18px; font-weight: bold;">Sprint 1 - Metodologia, tecnologias, protótipo, cadastro de usuários, cadastro de projetos, cadastro de tarefas, login, interface e banco de dados</span>
+</a>
+<br><br>
+<a href="Sprint2/" style="text-decoration: none;">
+  <img align="left" title="folder" height="30px" src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png"/>
+  <span style="font-size: 18px; font-weight: bold;">Sprint 2 - Subtarefas, Filtros, Edição e Exclusão de Projetos, Áreas de Atuação e Associação de tarefas a usuários.</span>
+</a>
 
 
 
-<br>
-
-
-### Sprint 2 - Subtarefas, Filtros, Edição e Exclusão de Projetos, Áreas de Atuação e Associação de tarefas a usuários.
-
-| ITEM   | STATUS |
-| :----: | :----: |
-|Modificações backlog (cenários de teste)|  |
-|Cadastro de subtarefas|  |
-|CRUD de subtarefas| |
-|Edição de projetos| |
-|Edição de tarefas| |
-|Exclusão de projetos| |
-|Exclusão de tarefas| |
-|Convidar membros para um projeto| |
-|CRUD de áreas de atuação| |
-|Associação de projetos a área de atuação| |
-|Associação de tarefas a usuários| |
-|Data de inicio e fim de projeto | |
-|Integração de IA | |
-|Tela minhas tarefas | |
-|Divisão de projetos que o usuário faz parte e que cordena | |
 
 
 <br>

@@ -77,7 +77,7 @@
   <span style="font-size: 18px; font-weight: bold;">Sprint 1 - Metodologia, tecnologias, protótipo, cadastro de usuários, cadastro de projetos, cadastro de tarefas, login, interface e banco de dados</span>
 </a>
 <br><br>
-<a href="Sprint2/" style="text-decoration: none;">
+<a href="Sprint2/README.md" style="text-decoration: none;">
   <img align="left" title="folder" height="30px" src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png"/>
   <span style="font-size: 18px; font-weight: bold;">Sprint 2 - Subtarefas, Filtros, Edição e Exclusão de Projetos, Áreas de Atuação e Associação de tarefas a usuários.</span>
 </a>

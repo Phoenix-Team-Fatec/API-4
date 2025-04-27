@@ -12,21 +12,20 @@ Implementar funcionalidades avançadas de gestão de projetos, incluindo:
 
 | ITEM   | STATUS |
 | :----: | :----: |
-|Modificações backlog (cenários de teste)|  |
-|Cadastro de subtarefas|  |
-|CRUD de subtarefas| |
-|Edição de projetos| |
-|Edição de tarefas| |
-|Exclusão de projetos| |
-|Exclusão de tarefas| |
-|Convidar membros para um projeto| |
-|CRUD de áreas de atuação| |
-|Associação de projetos a área de atuação| |
-|Associação de tarefas a usuários| |
-|Data de inicio e fim de projeto | |
-|Integração de IA | |
-|Tela minhas tarefas | |
-|Divisão de projetos que o usuário faz parte e que cordena | |
+|Modificações backlog (cenários de teste)| :white_check_mark: |
+|Cadastro de subtarefas| :white_check_mark: |
+|CRUD de subtarefas|:white_check_mark: |
+|Edição de projetos|:white_check_mark: |
+|Edição de tarefas|:white_check_mark: |
+|Exclusão de projetos|:white_check_mark: |
+|Exclusão de tarefas|:white_check_mark: |
+|Convidar membros para um projeto| :white_check_mark:|
+|CRUD de áreas de atuação|:white_check_mark: |
+|Associação de projetos a área de atuação| :white_check_mark:|
+|Associação de tarefas a usuários|:white_check_mark: |
+|Data de inicio e fim de projeto |:white_check_mark: |
+|Tela minhas tarefas |:white_check_mark: |
+|Divisão de projetos que o usuário faz parte e que cordena |:white_check_mark: |
 
 ## 🛠️ Funcionalidades Implementadas
 
@@ -75,5 +74,11 @@ Implementar funcionalidades avançadas de gestão de projetos, incluindo:
 - Edição mantém todos os relacionamentos intactos
 - Exclusão move projetos para "lixeira" por 30 dias
 
+## 🎥 Vídeo da Sprint 2
+
+[▶️ Assista à apresentação da Sprint 2 no YouTube](https://youtu.be/x6j2FWqZLiA)
+
+
+<br>
 
 [⬅️ Voltar para o README principal](../README.md)

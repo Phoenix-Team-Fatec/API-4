@@ -82,9 +82,10 @@
   <img align="left" title="folder" height="30px" src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png"/>
   <span style="font-size: 18px; font-weight: bold;">Sprint 2 - Subtarefas, Filtros, Edição e Exclusão de Projetos, Áreas de Atuação e Associação de tarefas a usuários.</span>
 </a>
+<br><br>
 <a href="Sprint3/README.md" style="text-decoration: none;">
   <img align="left" title="folder" height="30px" src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png"/>
-  <span style="font-size: 18px; font-weight: bold;">Sprint 2 - Subtarefas, Filtros, Edição e Exclusão de Projetos, Áreas de Atuação e Associação de tarefas a usuários.</span>
+  <span style="font-size: 18px; font-weight: bold;">Sprint 3 - Recuperação de dados, niveis de acesso e acompanhemento de progresso do projeto</span>
 </a>
 
 

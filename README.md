@@ -31,7 +31,7 @@
 <br>
 
 <h2>🎯 Cenários de Teste</h2>
-<a href="Cenarios_de_Teste/README.md">Clique aqui para ver os cenários</a>
+<a href="Cenarios_de_Testes/README.md">Clique aqui para ver os cenários</a>
 
 
 

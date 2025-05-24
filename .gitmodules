@@ -1,6 +1,6 @@
 [submodule "api"]
 	path = api
-	url = https://github.com/Phoenix-Team-Fatec/api.git
+	url = git@github.com:Phoenix-Team-Fatec/api.git
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/Phoenix-Team-Fatec/frontend.git
+	url = git@github.com:Phoenix-Team-Fatec/frontend.git

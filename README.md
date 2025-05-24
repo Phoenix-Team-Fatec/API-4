@@ -27,7 +27,13 @@
 | #10 | Média      | Como coordenador, quero recuperar um projeto excluído, para restaurar informações importantes caso a exclusão tenha sido um erro. | 30 Horas | 3 | RF2, RNF1, RNF2 | 
 
 
+<br>
+<br>
 
+## 🎯 Cenários de Teste
+<a href="Cenarios_de_Teste/README.md" style="text-decoration: none;">
+    <h2>Clique aqui para ver os cenários</h2>
+</a>
 
 
 

@@ -72,7 +72,7 @@ Implementar funcionalidades avançadas de gestão de projetos, incluindo:
 - Interface se adapta a diferentes dispositivos
 
 ## 🎥 Vídeo da Sprint 3
-[▶️ Assista à apresentação da Sprint 2 no YouTube]([https://youtu.be/x6j2FWqZLiA](https://www.youtube.com/watch?v=e9xZiSigmck))
+[▶️ Assista à apresentação da Sprint 3 no YouTube](https://www.youtube.com/watch?v=e9xZiSigmck)
 
 [⬅️ Voltar para o README principal](../README.md)
 

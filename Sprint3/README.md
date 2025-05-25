@@ -12,18 +12,18 @@ Implementar funcionalidades avançadas de gestão de projetos, incluindo:
 
 | ITEM   | STATUS |
 | :----: | :----: |
-|"Lixeira" para listar projetos excluídos|  |
-|Listagem de projetos que o usuário coordena e não coordena (frontend)|  |
-|Edição de subtarefas| |
-|Edição de etapas| |
-|Visualização completa das informações de um projeto| |
-|Edição completa de projetos| |
-|Filtro por Status de um projeto| |
-|Resposividade das telas| |
-|Niveis de acesso de usuários| |
-|Exclusão de projetos após 30 dias na lixeira| |
-|Verificações ao criar uma tarefa| |
-|Chatbot para ajudar usuário com funcionalidades do site| |
+|"Lixeira" para listar projetos excluídos|  :white_check_mark: |
+|Listagem de projetos que o usuário coordena e não coordena (frontend)|  :white_check_mark: |
+|Edição de subtarefas| :white_check_mark: |
+|Edição de etapas|:white_check_mark:  |
+|Visualização completa das informações de um projeto| :white_check_mark: |
+|Edição completa de projetos| :white_check_mark: |
+|Filtro por Status de um projeto| :white_check_mark: |
+|Resposividade das telas| :white_check_mark: |
+|Niveis de acesso de usuários|:white_check_mark:  |
+|Exclusão de projetos após 30 dias na lixeira|:white_check_mark:  |
+|Verificações ao criar uma tarefa|:white_check_mark:  |
+|Chatbot para ajudar usuário com funcionalidades do site| :white_check_mark: |
 
 ## 🛠️ Funcionalidades Implementadas
 
@@ -72,6 +72,7 @@ Implementar funcionalidades avançadas de gestão de projetos, incluindo:
 - Interface se adapta a diferentes dispositivos
 
 ## 🎥 Vídeo da Sprint 3
+[▶️ Assista à apresentação da Sprint 2 no YouTube]([https://youtu.be/x6j2FWqZLiA](https://www.youtube.com/watch?v=e9xZiSigmck))
 
 [⬅️ Voltar para o README principal](../README.md)
 
